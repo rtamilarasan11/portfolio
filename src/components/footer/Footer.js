@@ -8,9 +8,9 @@ export default function Footer() {
   const {isDark} = useContext(StyleContext);
   return (
     <Fade bottom duration={1000} distance="5px">
-      <div className="footer-div">
+      {/* <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          {emoji("Made with ❤️ by DeveloperFolio Team")}
+          {emoji("Made with ❤️ by Kabilan Team")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           Theme by{" "}
@@ -18,7 +18,7 @@ export default function Footer() {
             developerFolio
           </a>
         </p>
-      </div>
+      </div> */}
     </Fade>
   );
 }
